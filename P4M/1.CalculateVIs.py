@@ -126,7 +126,7 @@ def VisGeneration(in_path):
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
     date = "20220627"
-    in_path = "F:/yeyulu/0.DATA/2022LF/P4M" + "/" + date
+    in_path = "P4M" + "/" + date
     # os.chdir(in_path)
     # bands_combine(bands_path=in_path)  #波段合并
     # in_tif = os.path.join(in_path, "bands5.tif")
@@ -134,11 +134,11 @@ if __name__ == '__main__':
     VisGeneration(in_path)  #植被指数计算
 
     #######  多核  ######
-    # date_list = ["F:/yeyulu/0.DATA/2021LF/P4M/20210704",
-    #              "F:/yeyulu/0.DATA/2021LF/P4M/20210708",
-    #              "F:/yeyulu/0.DATA/2021LF/P4M/20210716",
-    #              "F:/yeyulu/0.DATA/2021LF/P4M/20210720",
-    #              "F:/yeyulu/0.DATA/2021LF/P4M/20210724"]
+    # date_list = ["P4M/20210704",
+    #              "P4M/20210708",
+    #              "P4M/20210716",
+    #              "P4M/20210720",
+    #              "P4M/20210724"]
     # for i in date_list:
     #     #in_tif = os.path.join(i, "bands5.tif")
     #     # bands_combine(bands_path=i)  #波段合并
