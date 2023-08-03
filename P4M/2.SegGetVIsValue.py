@@ -122,7 +122,7 @@ def main(wd,date):
 
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
-    wd = r'F:\yeyulu\0.DATA\2022LF\P4M'
+    wd = r'P4M'
     date = "20220627"
     main(wd, date)
     #items = ["20210704", "20210708", "20210716", "20210720","20210724"]
