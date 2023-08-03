@@ -55,10 +55,10 @@ def batch_CC(img_path):
     return out_df
 
 if __name__ == '__main__':
-    wd = "F:/yeyulu/0.DATA/2021HN/CC/"
+    wd = "CC/"
     date = "20211211"
 
     img_path = wd + date + '/plots_jpg'
-    reSoil_svc = joblib.load(r"F:\yeyulu\pythonProject\RGB\SvmRemoveSoil.m")
+    reSoil_svc = joblib.load(r"RGB\SvmRemoveSoil.m")
     cc = batch_CC(img_path)
-    cc.to_excel(wd + date + '/20211211_CC.xlsx', index=False)
+    cc.to_excel(wd + date + '/CC.xlsx', index=False)
