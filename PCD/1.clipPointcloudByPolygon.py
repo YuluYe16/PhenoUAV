@@ -55,9 +55,9 @@ def main(in_las,shp_path,out_path):
 
 if __name__ == '__main__':
     #date = '20220624'
-    #wd_path = "F:/yeyulu/biomass"
-    in_las = r"F:\yeyulu\0.DATA\2021HN\3D\20211224\cloud.las"
-    shp_path = r"F:\yeyulu\0.DATA\2021HN\3D\seg"
-    out_path = r"F:\yeyulu\0.DATA\2021HN\3D\20211224\plots"
+    #wd_path = "biomass"
+    in_las = r"cloud.las"
+    shp_path = r"seg"
+    out_path = r"plots"
     main(in_las, shp_path, out_path)
 
