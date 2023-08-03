@@ -78,10 +78,10 @@ def main(tif_path,out_path):
 
 if __name__ == '__main__':
     warnings.filterwarnings('ignore')
-    reSoil_svc = joblib.load(r"F:\yeyulu\pythonProject\RGB\SvmRemoveSoil.m")
+    reSoil_svc = joblib.load(r"SvmRemoveSoil.m")
     for date in ("20220607", "20220610", "20220613", "20220620", "20220623", "20220627", "20220630",
                  "20220704", "20220707", "20220714", "20220824", "20220830"):
-        wd = 'F:/yeyulu/XJ_results/' + date + '/T3_jpg'
-        out = 'F:/yeyulu/XJ_results/' + date
+        wd = 'results/' + date + '/T3_jpg'
+        out = 'results/' + date
         main(wd, out)
         print(date + " finished!")
