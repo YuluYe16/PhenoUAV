@@ -32,7 +32,7 @@ def las2pcd(file,save_path,name):
     return address
 
 if __name__ == "__main__":
-    las_path = r"F:\yeyulu\0.DATA\2021HN\3D\20211224\plots"
+    las_path = r"plots"
     processed_files = []
     num_filtered = 1
     file_names = find_files(las_path,processed_files)
