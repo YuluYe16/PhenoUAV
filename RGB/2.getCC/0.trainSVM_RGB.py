@@ -17,7 +17,7 @@ import seaborn as sns
 import joblib
 import os
 
-os.chdir(r"F:\yeyulu\pythonProject\RGB")
+os.chdir(r"RGB")
 
 df = np.loadtxt('samples.txt', skiprows=1)
 x = df[:, 1:4]
