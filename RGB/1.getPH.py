@@ -81,5 +81,5 @@ def main(date,wd_path):
 
 if __name__ == '__main__':
 
-    wd_path = r'F:\yeyulu\XJ_results'
+    wd_path = r'results'
     main(date, wd_path)
