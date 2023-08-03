@@ -36,11 +36,11 @@ def seg_tif(input_raster, input_shape, output_raster):
 
 if __name__ == '__main__':
     warnings.filterwarnings("ignore")
-    wd_path = r'F:/yeyulu/0.DATA/2021HN/CC/'
+    wd_path = r'CC/'
 
     date = '20211211'
     input_raster = wd_path + date + '/result.tif'
-    input_shape = wd_path + '/shp/cotton.shp'  # 1.samples  2.all_plots
+    input_shape = wd_path + '/shp/test.shp'  # 1.samples  2.all_plots
     output_raster = wd_path + date +'/plots/'
     if not os.path.exists(output_raster):
         os.makedirs(output_raster)
