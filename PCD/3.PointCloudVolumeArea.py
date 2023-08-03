@@ -126,6 +126,6 @@ def main(input_pc,output):
 
 if __name__ == '__main__':
 
-    input_pc = r"F:\yeyulu\0.DATA\2021HN\3D\20211224\plots"
-    output = r'F:\yeyulu\0.DATA\2021HN\3D\20211224'
+    input_pc = r"plots"
+    output = r'20211224'
     main(input_pc, output)
