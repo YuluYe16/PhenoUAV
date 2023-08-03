@@ -28,7 +28,7 @@ def rotate_bound(image, angle):
     M[1, 2] += (nH / 2) - cY
     return cv2.warpAffine(image, M, (nW, nH))
 
-wd = "F:/yeyulu/0.DATA/2021HN/CC/"
+wd = "CC/"
 date = "20211211"
 
 imagesDirectory = wd + date + "/plots_tif"  # tiff图片所在文件夹路径
